@@ -1,0 +1,23 @@
+{
+  "name": "8-coming-soon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mantodinas/8-coming-soon.git"
+  },
+  "author": "Mantas Petrauskas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mantodinas/8-coming-soon/issues"
+  },
+  "homepage": "https://github.com/mantodinas/8-coming-soon#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

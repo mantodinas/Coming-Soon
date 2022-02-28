@@ -1,0 +1,85 @@
+.right-column form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.messege-form {
+    width: 100%;
+}
+@media (max-width: 640px) {
+    .messege-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+@media (max-width: 640px) {
+    .name-email {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.name,.email {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #777;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.messege {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 100%;
+}
+
+.messege label {
+    color: var(--color-grey);
+}
+
+.messege textarea {
+    border: none;
+    border-bottom: 1px solid #777;
+    width: 100%;
+}
+
+.messege-btn {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+@media (max-width: 900px) {
+    .messege-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+.messege-btn a {
+    text-decoration: none;
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    line-height: 34px;
+    font-weight: 550;
+    transition: all 0.3s;
+}
+
