@@ -5,6 +5,7 @@
 </p>
 
 Responsive design, repetitive content is generated/rendered, css animations, NodeJS.
+Website created learning and improving front-end.
 
 Design from: https://bit.ly/37349iN
 
